@@ -8,7 +8,7 @@
 }
 
 body {
-  width: 85%;
+  width: 95%;
   margin: 10px auto;
   
 }
@@ -18,7 +18,7 @@ body {
   background-color: red;
   font-size: 1em;
   color: white;
-
+  padding-bottom: 5px;
 }
 
 .nav-ul {
@@ -47,6 +47,66 @@ body {
   text-decoration: none;
   color: white;
   margin-right: 7px;
+}
+/* search bar */
+.headertag {
+  background-image: url(./images/city-scape.svg);
+  height: 450px;
+  padding: 5px;
+}
+
+.searchbar li {
+  float: left;
+  list-style: none;
+}
+.npmlogo img {
+  height: 35px;
+}
+.npmbear img {
+  height: 35px;
+  margin-left: 10px;
+}
+
+.magnifier {
+  width: 5%;
+}
+
+.signlogin {
+  text-align: center;
+  
+}
+.signlogin a {
+  text-decoration: none;
+  color: white;
+}
+
+.searchbox-input {
+  width: 70%;
+  margin: 3px 5px;
+  background-color: rgb(40,90,120);
+  
+}
+.searchbox-input input {
+  width: 100%;
+  background-color: rgb(40,90,120);
+  border: black solid 1px;
+}
+.build-amazing {
+  align: center;
+  width: 40%;
+  padding: 5%;
+  
+  position: relative;
+  top: 5%;
+  left: 10%;
+}
+
+.build-amazing  button {
+  color: white;
+  background-color: #EE913A;
+  padding: 15px;
+  border-radius: 20px;
+  margin-top: 10px;
 }
 
 .group::before,
