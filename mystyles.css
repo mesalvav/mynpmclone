@@ -132,7 +132,7 @@ body {
 .s1-texto button {
   color: white;
   background-color:  #C73136;
-  padding: 15px;
+  padding: 8px 10px;
   border-radius: 30px;
   margin-top: 10px;
 }
@@ -142,7 +142,64 @@ body {
   text-decoration: none;
   display: block;
 }
+/* section two */
+.sectiontwo {
+  background-image: url(./images/forklift.svg);
+  
+  background-repeat: no-repeat;
+  height: 450px;
+  padding: 15px;
+}
+.s2-texto {
+  /* float: right; */
+  position: relative;
+  left: 20%;
+  top: 45%;
+  color: white;
+  width: 30%;
+}
 
+.s2-texto button {
+  color: white;
+  background-color: #34485C;
+  padding: 8px 15px;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+/* section three */
+
+.contenido3 {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 3px;
+}
+
+.allmakers {
+  text-align: center;
+  align-items: center;
+  vertical-align: center;
+  padding-bottom: 30px;
+  margin-top: 10px;
+}
+
+.makers {
+  /* float: left; */
+  display: inline-block;
+  /* background-color: #EE913A; */
+  width:20%;
+  padding: 5px 5px;
+  margin: 0 10px;
+  
+}
+.makers:last-child {
+  position: relative;
+  /* background-color: yellow; */
+  top: -15px; 
+}
+
+.makers span {
+  color: red;
+}
 
  /* clearfix hack */
 .group::before,
