@@ -92,10 +92,10 @@ body {
   border: black solid 1px;
 }
 .build-amazing {
-  align: center;
+  
   width: 40%;
   padding: 5%;
-  
+  color: white;
   position: relative;
   top: 5%;
   left: 10%;
@@ -109,6 +109,42 @@ body {
   margin-top: 10px;
 }
 
+/* section1 */
+.sectionone {
+  background-image: url(./images/collaboration.svg);
+  background-color: #283546;
+  background-size: 30%;
+  background-position-y: center;
+  background-position-x: 35%;
+
+  background-repeat: no-repeat;
+  height: 450px;
+  padding: 15px;
+}
+.s1-texto {
+  float: right;
+  position: relative;
+  top: 25%;
+  color: white;
+}
+
+
+.s1-texto button {
+  color: white;
+  background-color:  #C73136;
+  padding: 15px;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+
+.s1-texto a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+
+ /* clearfix hack */
 .group::before,
 .group::after {
   content: "";
